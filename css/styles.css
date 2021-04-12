@@ -6190,7 +6190,7 @@ button.bg-dark:focus {
 }
 
 .bg-transparent {
-  background-color: transparent !important;
+  background-color: rgba(255,255,255,0.5) !important;
 }
 
 .border {
@@ -10285,6 +10285,12 @@ header.masthead .site-heading-writing .main {
 header.masthead .site-heading-writing .sub {
   display:block;
 }
+header.masthead .site-heading-writing .detailed-main {
+  display:block;
+}
+header.masthead .site-heading-writing .detailed-sub {
+  display:block;
+}
 @media only screen and (min-width: 768px) {
   header.masthead .page-heading,
   header.masthead .post-heading,
@@ -10296,7 +10302,6 @@ header.masthead .site-heading-writing .sub {
   }
   header.masthead .site-heading-writing .main {
     display:inline;
-    padding-right:5px;
   }
   header.masthead .site-heading-writing .sub {
     display:inline;
